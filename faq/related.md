@@ -1,65 +1,44 @@
 # Related projects
 
-Boilerplate projects, example projects with sources, Libraries.
+* [MobX react bindings](https://github.com/mobxjs/mobx-react)
+* [MobX react devtools](https://github.com/mobxjs/mobx-react-devtools)
+* [MobX remotedev: Use the Redux Devtools with MobX](https://github.com/zalmoxisus/mobx-remotedev)
+* [MobX inferno bindings](https://www.npmjs.com/package/mobx-inferno)
+* [MobX deku bindings](https://github.com/micnews/mobx-deku)
+* For Preact the [preact-compat](https://github.com/developit/preact-compat) module + mobx-react can be used.
+* [tracker-mobx-autorun](https://github.com/meteor-space/tracker-mobx-autorun) Integrate Meteor reactive data with MobX for simple yet highly optimized state management
+* [react-native-mobx](https://github.com/aksonov/react-native-mobx) Make your app reactive with MobX and react-native-router-flux
+* [ng2-mobx](https://github.com/500tech/ng2-mobx)
 
-## Boilerplate projects
-
-* React, Babel, Webpack: https://github.com/mweststrate/react-mobservable-boilerplate
-* React, Typescript, Webpack: https://github.com/mobxjs/mobx-react-typescript-boilerplate  
-* MobX + React JSFiddle: https://jsfiddle.net/mweststrate/wgbe4guu/
-* MobX + React JSFiddle with just ES5: https://jsfiddle.net/rubyred/55oc981v/
-* [generator-mobx-react](https://www.npmjs.com/package/generator-mobx-react) Yeoman MobX, React, Webpack, Babel / Typescript project generator
-* [jspm-react](https://github.com/capaj/jspm-react) lightweight React.js ES6 boilerplate with JSPM and proper hot reloading modules
-* [rfx-stack](https://github.com/foxhound87/rfx-stack) RFX Stack - Universal App featuring: React + Feathers + MobX
-* [reaxor](https://github.com/KadoBOT/reaxor) Boilerplate for better state management, styling, testing and cleaner code
-* [react-portal](https://github.com/vinej/react-portal) MobX, React with Flux architecture
-* [react-mobx-webpack(https://github.com/tapos007/ReactJS-MobX-Webpack-Boilerplate/tree/master/app/store) Quickstart project template for learning React
-* [gulp-es6-sass-mobx](https://github.com/pixelkritzel/gulp_es6_sass_boilerplate)
-* [react-mobx-boilerplate](https://github.com/osenvosem/react-mobx-boilerplate) A small React + React Router + MobX boilerplate with a small example app.
-* [Small project to quickly start with deku, MobX, JSX, ES6, Babel](https://github.com/micnews/mobx-deku-boilerplate)
-
-## Example projects
-
-* [Simple ES5 MobX examples](https://github.com/mattruby/mobx-examples) Bite sized MobX examples all setup to run in jsFiddle.
-* TodoMVC application, including Server Side Rendering: https://github.com/mobxjs/mobx-react-todomvc
-* Contact list application (simple data fetching, routing, complex components, material UI): https://github.com/mobxjs/mobx-contacts-list
-* Spectacle editor: Official editor for building presentations using the Spectacle library: https://github.com/FormidableLabs/spectacle-editor
-* DWatch - docker container manager, Electron, typescript, inversifyJS: https://github.com/Mercateo/dwatch
-* Kratelabs interactive map / map order service https://kratelabs.addxy.com/#/ source: https://github.com/KrateLabs/KrateLabs-App
-* [Google Play Music Desktop Remote](https://github.com/GPMDP/google-play-music-desktop-remote) A React-Native app for remote controlling Google Play Music Desktop: MobX + WebSocket.
-* Example with Server Side Rendering, react-router: https://github.com/kuuup/mobx-ssr-example
-* Accounting System built in ASP.NET MVC, ReactJS, MobX http://www.accountgo.ph/ [source](https://github.com/AccountGo/accountgo)
-* Easy MobX example with React, MobX, cosmicJS, shorti,  https://github.com/tonyspiro/easy-mobx-example
-* A simple webshop using [React + mobx](https://jsfiddle.net/mweststrate/46vL0phw)
-* A simple webshop using [JQuery + mobx](http://jsfiddle.net/mweststrate/vxn7qgdw).
-* Simple app with Ajax, authentication, context, routing: http://stackoverflow.com/a/36164488/1983583
-* Contacts MVC app with Typescript, routing etc. https://github.com/contacts-mvc/mobx-react-typescript:
-* React Particles (React, MobX, D3. one app with two architectures in two branches, Flux and MVC: https://github.com/mobxjs/react-particles-experiment)
-* Mortgage overpayment calculator using React with MobX: https://github.com/paulhoughton/mortgage-mobx 
-* Simple drag and drop application. Also provides time travelling https://github.com/mobxjs/mobx-reactive2015-demo
-* The [ports of the _Notes_ and _Kanban_ examples](https://github.com/survivejs/mobx-demo) from the book "SurviveJS - Webpack and React" to MobX.
-* Flux challenge, implemeted with MobX: https://github.com/staltz/flux-challenge/tree/master/submissions/mweststrate
-* MobX + D3 codepen: http://codepen.io/timelyportfolio/pen/zrJwvE
-
-## Libraries
-
-* MobX-React bindings: https://github.com/mobxjs/mobx-react
-* Mobx-React-Devtools: https://github.com/mobxjs/mobx-react-devtools
-* MobX Deku bindings: https://github.com/micnews/mobx-deku
+* Staff pick: [mobx-react-form](https://foxhound87.github.io/mobx-react-form/docs/devtools.html) Build forms and validate them using json-schema rules
+* [mobx-form-store](https://github.com/alexhisen/mobx-form-store) + [mobx-schema-form](https://github.com/alexhisen/mobx-schema-form) Loosely-coupled components for managing, rendering and validating forms in MobX-based apps
+* [mobx-forms](https://github.com/oreqizer/mobx-forms) A simple form manager for React and Mobx, heavily inspired by redux-forms
 * [mobx-form](https://github.com/royriojas/mobx-form) Declaratively build forms using MobX
-* [mobx-ajv-form](https://github.com/foxhound87/mobx-ajv-form) Build forms and validate them using json-schema rules 
+* [mobx-input](https://github.com/tomaash/mobx-input) Form validation for MobX and react-bootstrap.
 * [Form abstraction in one fiddle](https://jsfiddle.net/darthapo/k63ujjsp/)
-* [mobx-model](https://github.com/ikido/mobx-model) Simplify mobx data stores that mimic backend models 
-* [mobx-store](https://github.com/AriaFallah/mobx-store) A lowdb inspired data store with declarative querying, observable state, and easy undo/redo.
+
+* [serializr](https://github.com/mobxjs/serializr) Small library to (de)serialize complex object graphs to JSON
+* [mobx-utils](https://github.com/mobxjs/mobx-utils) Utility belt for MobX with several common patterns, like subscribing to external resources, converting promises etc.
+* [mobx-state-tree](https://github.com/mobxjs/mobx-state-tree) Idiomatic state container, supporting time traveling, patches, replayable actions etc.
+* [mobx-rest](https://github.com/masylum/mobx-rest) REST conventions for MobX.
+* [mobx-model](https://github.com/ikido/mobx-model) Simplify mobx data stores that mimic backend models
+* [mobx-router](https://github.com/kitze/mobx-router) A simple router for MobX apps
 * [mobx-firebase-store](https://github.com/nyura123/mobx-firebase-store) Subscribe MobX observables to firebase
+* [mobx-store](https://github.com/AriaFallah/mobx-store) A lowdb inspired data store with declarative querying, observable state, and easy undo/redo.
 * [rx-mobx](https://github.com/chicoxyzzy/rx-mobx) Convert Mobx observables to RxJS and vice versa
 * [mobx-reactor](https://github.com/amsb/mobx-reactor) Connect MobX data stores to functional stateless React components with async actions and unidirectional data flow.
-* [mobx-connect](https://github.com/nightwolfz/mobx-connect) MobX @connect decorator for react components. Similar to redux's @connect.
 * [mobx-autorun-async-immediate](https://github.com/dettier/mobx-autorun-async-immediate) Mobx debounced autorun function with immediate synchronous first call
 * [Smalldots MobX Store](https://github.com/smalldots/mobx-store) Store API for MobX
 * [mobx-roof](https://github.com/mobx-roof/mobx-roof) Simple, React MVVM framework based on mobx
-* [mobx-react-intl](https://github.com/Sqooba/mobx-react-intl) react-intl provider and store for mobx
-
+* [mobx-translate](https://github.com/tomaash/mobx-translate) Simple translations library for mobx
+* [react-mobx-translatable](https://github.com/infinum/react-mobx-translatable) Make React components translatable using MobX. Can be used both on the server (SSR) and in the browser.
+* [mobx-logger](https://github.com/winterbe/mobx-logger) Always know what is really going on in your MobX application by logging just the right information.
+* [mobx-react-matchmedia](https://github.com/foxhound87/mobx-react-matchmedia) A React HOC with mediaqueries for responsive layout.
+* [mobx-server-wait](https://www.npmjs.com/package/mobx-server-wait) Render universally with server awaited mobx actions.
+* [mobx-cache](https://github.com/mdebbar/mobx-cache) An observable data cache with MobX
+* [mobx-persist](https://github.com/pinqy520/mobx-persist) create and persist mobx stores
+* [gwt-mobx](https://github.com/GWTReact/gwt-mobx) GWT Java bindings for MobX
+* [mobx-app](https://github.com/danieldunderfelt/mobx-app) A functional structure for mobx
 
 ## ... More
 
